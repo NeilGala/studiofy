@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Studiofy - Ethereal AI Fashion
 
-# Run and deploy your AI Studio app
+A high-fidelity landing page for an AI fashion transformation platform, built with pure HTML, CSS, and vanilla JavaScript.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1bgY7Y4PFuhaBP9IqaAFhItnYWL1RSOeF
+- **No build tools required** - Pure HTML, CSS, and JavaScript
+- **Smooth animations** - Scroll-triggered reveal animations
+- **Responsive design** - Works on all screen sizes
+- **Modern aesthetics** - Dark theme with amethyst accents
+- **Interactive elements** - Ripple effects, smooth scrolling, and more
 
-## Run Locally
+## File Structure
 
-**Prerequisites:**  Node.js
+```
+studiofy/
+├── index.html      # Main HTML file
+├── styles.css      # All CSS styling
+├── script.js       # JavaScript for interactions
+└── README.md       # This file
+```
 
+## How to Run
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Simply open `index.html` in any modern web browser. No installation or build process needed!
+
+**For local development server:**
+```bash
+# Using Python
+python -m http.server 8000
+
+# Using Node.js
+npx serve
+```
+
+Then visit `http://localhost:8000` in your browser.
+
+## Technologies Used
+
+- HTML5
+- CSS3 (with custom animations and gradients)
+- Vanilla JavaScript (ES6+)
+- Google Fonts (DM Sans)
+
+## Customization
+
+- **Colors**: Edit CSS variables and color values in `styles.css`
+- **Content**: Modify text directly in `index.html`
+- **Animations**: Adjust timing and effects in `styles.css` and `script.js`
